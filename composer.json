@@ -1,0 +1,33 @@
+{
+  "name": "chocofamilyme/restapi-helpers",
+  "description": "Вспомогательные функции для проекта RestAPI",
+  "keywords": [
+    "restapi",
+    "phalcon",
+    "dd",
+    "dump",
+    "utils",
+    "debug",
+    "vardumper"
+  ],
+  "type": "library",
+  "license": [
+    "BSD-3-Clause"
+  ],
+  "homepage": "https://github.com/chocofamilyme/restapi-helpers",
+  "authors": [
+    {
+      "name": "IT Chocolife.me",
+      "homepage": "https://chocolife.me"
+    }
+  ],
+  "require": {
+    "php": ">= 7.0.0",
+    "ext-phalcon": ">= 3.0.0"
+  },
+  "autoload": {
+    "files": [
+      "src/helper.php"
+    ]
+  }
+}
