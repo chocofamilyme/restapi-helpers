@@ -83,7 +83,7 @@ if (! function_exists('pcollect')) {
      * @param array $attributes
      * @return Chocofamily\Collection\Collection
      */
-    function collect(array $attributes = [])
+    function pcollect(array $attributes = [])
     {
         return new Collection($attributes);
     }
