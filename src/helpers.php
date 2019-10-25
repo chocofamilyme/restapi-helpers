@@ -76,7 +76,7 @@ if (!function_exists('dump')) {
     }
 }
 
-if (! function_exists('collect')) {
+if (! function_exists('pcollect')) {
     /**
      * Create a collection from the given value.
      *
