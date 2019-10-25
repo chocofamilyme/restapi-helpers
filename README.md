@@ -1,5 +1,7 @@
 # Функции и классы помощники для проекта RestAPI
 
+#### Внимание начиная с версии 2.x "глобальная" функция коллекции "collect" была перемеинована в "pcollect"
+
 ## Требуется
     - Phalcon > 3.0.0
     - RestAPI
@@ -12,9 +14,9 @@
 
 
 Есть два способа создания коллекции
-1. Через helper сollect, пример:
+1. Через helper pсollect, пример:
 ```php
-$collection = collect([1, 2 , 3, 4]);
+$collection = pcollect([1, 2 , 3, 4]);
 return $collection->first(); //1
 ```
 2. Через класс
